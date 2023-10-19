@@ -1,0 +1,35 @@
+li{
+    list-style: none;
+}
+
+.list-box{
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.icons-edit{
+    margin: 0px 5px 0px;
+}
+
+.icons-delete{
+    margin: 0px 5px 0px;
+}
+
+.icons-delete :hover{
+    color: red;
+}
+
+.icons-edit :hover{
+    color: #0000FF;
+}

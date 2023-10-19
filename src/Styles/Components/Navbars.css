@@ -1,0 +1,91 @@
+.nav-main{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.in-nav-main{
+    width: 80%;
+}
+
+li button{
+    width: 137px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 20px;
+    gap: 10px;
+    border: none;
+}
+
+.btn-contact{
+    background-color: #8956F6 !important;
+    color: #FFFFFF !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    width: 110px !important;
+    height: 44px!important;
+    padding: 10px !important;
+    border-radius: 20px !important;
+    text-align: center;
+    gap: 10px !important;
+    font-family: Poppins !important;
+
+}
+
+.btn-login{
+    background-color: #FFFFFF !important;
+    color: black; 
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    width: 110px !important;
+    height: 44px!important;
+    padding: 10px !important;
+    border-radius: 20px !important;
+    text-align: center;
+    gap: 10px !important;
+    font-family: Poppins !important;
+
+}
+
+.logonav{
+    width: 235px;
+    height: 49px;
+}
+
+.inside-Nav{
+    font-family: Poppins !important;
+    text-align: center !important;
+}
+
+.on-Nav{
+    gap: 20px !important;
+}
+
+.navbar-toggler{
+    background-color: #bbb9b9 !important;
+}
+
+@media screen and (max-width: 992px ) { 
+    .inside-Nav{
+        text-align: left !important;
+    }
+    
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .in-nav-main{
+        width: 90%;
+    }
+
+    .nav-main{
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+}

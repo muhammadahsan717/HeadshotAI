@@ -1,0 +1,173 @@
+
+.section4{
+    padding-top: 70px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.section-four-box{
+    max-width: 1200px;
+    align-items: center;
+}
+
+.section-four-big-text{
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.section-four-small-text{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section-four-text{
+    height: 24px;
+    margin-bottom: 50px;
+}
+
+.section-four-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20.9px;
+    padding-top: 50px;
+}
+
+.card-one{
+    width: 368px;
+    height: 300px;
+    padding: 25.44px;
+    border: 0.91px solid;
+    background-color: #A0A0A080;
+    text-align: center;
+}
+
+.section4-cards-text{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.section4-cards-heading{
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.section4-cards-pricing{
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+@media screen and (max-width: 1386px){
+    .section-four-box{
+        max-width: 90%;
+    }
+
+    .section-four-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .card-one{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .card-one{
+        width: 250px;
+    }
+
+    .section-four-box{
+        max-width: 90%;
+    }
+
+    .section-four-big-text{
+        font-size: 60px;
+        font-weight: 650;
+    }
+    
+    .section-four-small-text{
+        font-size: 14px;
+        padding-top: 0px;
+    }
+
+    .section-four-cards{
+        padding-top: 0px;
+    }
+
+    .section4{
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .card-one{
+        width: 250px;
+    }
+
+    /* .section-four-box{
+        max-width: 100%;
+    } */
+}
+
+/* .section4-cards-text :hover{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.section4-cards-heading :hover{
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.section4-cards-pricing :hover{
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+} 
+
+.card-one :hover{
+    background-color: #7733FF;
+    width: 368px;
+    height: 350px;
+    color: #FFFFFF;
+} */

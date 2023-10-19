@@ -1,0 +1,24 @@
+.input-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+}
+
+.add-btn{
+    background-color: #74b4f0;
+    border: none;
+    padding: 7px 20px;
+    margin: 8px 10px;
+    font-size: larger;
+    border-radius: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+}

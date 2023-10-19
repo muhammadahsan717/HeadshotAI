@@ -1,0 +1,110 @@
+.registration-header{
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.registration-nav{
+    background-color: #000000;
+}
+
+.registration-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(0.5turn, #c1a8ca, #7fa7bd, #eea6ee);
+}
+
+.registration-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.form-box{
+    width: 1098px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.custom-placeholder::placeholder{
+    color:#000000;
+}
+
+Input{
+    max-width: 1098px;
+    height: 60px;
+}
+
+.ant-input-lg{
+    border-radius: 0px;
+}
+
+/* .ant-input{
+    min-width: 545px;
+} */
+
+.form-button{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1098px;
+
+}
+
+.Buttons-icon{
+    height: 50px;
+    width: 176px;
+    border-radius: 100px;
+    background-color: #FFDB61;
+    border: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+@media screen and (max-width: 1440px) {
+
+    /* .registration-main{
+        justify-content: center;
+    } */
+
+    .form-box{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    Input{
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .form-button{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .registration-header{
+        font-size: 60px;
+        font-weight: 650;
+        line-height: 0px;
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    
+}

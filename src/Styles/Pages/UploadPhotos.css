@@ -1,0 +1,269 @@
+.uploadPhotos-main{
+    background: linear-gradient(0.5turn, #c1a8ca, #7fa7bd, #eea6ee);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.uploadPhotos-heading{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.up-heading{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.up-heading p{
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0em;
+}
+
+.uploadPhotos-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.up-content{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.uploadPhotos-button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.up-button{
+    width: 1200px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 70px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.Buttons-icon-registerss{
+    height: 50px;
+    width: 220px;
+    border-radius: 100px;
+    background-color: #7733FF;
+    border: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.Buttons-icon-submit{
+    height: 50px;
+    width: 176px;
+    border-radius: 100px;
+    background-color: #FFDB61;
+    border: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.up-text{
+    text-align: left;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+}
+
+.up-boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20.9px;
+}
+
+.up-boxes-inside{
+    width: 200px;
+    height: 169px;
+    border: 0.91px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up-boxes-inside p{
+    text-align: center;
+}
+
+.ep-boxes{
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.ep-boxes-inside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.ep-box-1-img{
+    width: 500px;
+    height: 460px;
+}
+
+.ep-box-2{
+    width: 650px;
+}
+
+.ep-box-2 p{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: auto;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+@media screen and (max-width: 1386px){
+    .up-content{
+        width: 90%;
+    }
+
+    .up-heading{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 70px;
+    }
+
+    .up-button{
+        width: 90%;
+    }
+
+    .ep-box-2 p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (max-width: 990px){
+    .up-boxes-inside{
+        width: 150px;
+        height: 150px;
+    }
+
+    .up-boxes{
+        justify-content: space-evenly;
+        gap: 15.9px;
+    }
+
+    .ep-boxes-inside{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ep-box-2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .up-boxes-inside{
+        width: 120px;
+        height: 120px;
+    }
+
+    .up-heading p{
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 71px;
+        text-align: center;
+    }
+
+    .uploadPhotos-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    
+    .up-heading{
+        padding-top: 40px;
+    }
+
+    .up-button{
+        width: 90%;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 40px;
+        gap: 20px;
+        /* flex-wrap: wrap; */
+        justify-content: space-between;
+    }
+
+    .Buttons-icon-registerss{
+        width: 170px;
+    }
+    .Buttons-icon-submit{
+        width: 170px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .ep-box-1-img{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .up-boxes-inside{
+        width: 100px;
+        height: 100px;
+    }
+
+    .up-boxes{
+        gap: 10.9px;
+    }
+
+    .up-button{
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 40px;
+        flex-wrap:nowrap;
+        align-items: center;
+    }
+}

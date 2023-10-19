@@ -1,0 +1,167 @@
+.termsAndCondition-main{
+    background: linear-gradient(0.5turn, #c1a8ca, #7fa7bd, #eea6ee);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.termsAndCondition-heading{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tandc-heading{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.tandc-heading p{
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0em;
+}
+
+.termsAndCondition-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.tandc-content-text{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tandc-content-text p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+}
+
+.termsAndCondition-button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.tandc-button{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Buttons-icon-packages{
+    height: 50px;
+    width: 220px;
+    border-radius: 100px;
+    background-color: #7733FF;
+    border: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.Buttons-icon-payment{
+    height: 50px;
+    width: 176px;
+    border-radius: 100px;
+    background-color: #FFDB61;
+    border: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+@media screen and (max-width: 1386px)
+{
+    .tandc-content-text{
+        width: 90%;
+    }
+
+    .tandc-button{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .tandc-heading{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .tandc-heading p{
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 71px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .tandc-content-text p{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+    }
+
+    .tandc-heading{
+        padding-top: 40px;
+    }
+
+    .termsAndCondition-content{
+        padding-top: 20px;
+    }
+
+    .termsAndCondition-button{
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+
+
+    .Buttons-icon-packages{
+        width: 200px;
+    }
+    .Buttons-icon-payment{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .tandc-button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
